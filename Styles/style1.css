@@ -1,0 +1,53 @@
+body{
+ background-color: antiquewhite
+
+}
+
+
+h1{
+
+    color: blueviolet;
+    font-style: oblique;
+}
+
+
+h2{
+
+
+    color: blueviolet;
+    font-style: oblique;
+}
+
+
+
+
+
+p{
+    
+    color:plum; 
+    font-size: large;  
+    }
+    ul{
+    
+    color:plum; 
+    font-size: large;  
+    }
+
+    #Theform{
+     color: beige;   
+    display: table;
+    padding: 15px;
+    background-color:white;
+    border:solid 2px black;
+
+        
+    }
+
+    
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    
+    

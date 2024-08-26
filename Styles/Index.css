@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+/*header{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(Images/handpaint.avif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}*/
+ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-left: 60px;
+    font-size: 17px;
+
+}
+ul li a{
+text-decoration: none;
+color: #fff;
+padding: 2px 20px;
+border: 1px solid transparent;
+transition: 0.5 ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+ul li.active a{
+   background-color: #ffdae0;
+    color: #000;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio: 16/9){
+    .background-clip{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio: 16/9){
+    .background-clip{
+        width: auto;
+        height: 100%;
+    }
+}
