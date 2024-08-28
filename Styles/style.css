@@ -194,15 +194,15 @@ padding: 40px 100px;
     width: 90%;
     height: 90%;
 }
-.mainfoooter
+.mainfooter
 {
-padding-left: 850px;
-background:#B1D4E0;
+    padding-left:800px;
+    background:#b1d4e0;
 }
-.openinnig-hours 
+.openinnig-hours
 {
-padding-right:40px;
-margin-right: 60px;
+    padding-right:40px;
+    margin-left:30px;
 }
 @media (max-width:991px)
 {
